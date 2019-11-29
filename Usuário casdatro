@@ -1,0 +1,52 @@
+package Cadastro;
+
+import javax.swing.JLabel;
+
+/**
+ *
+ * @author Gilberto Toledo
+ */
+public class Usuario extends Usuario1 {
+
+
+    
+    private String Senha;
+    private String Nome;
+    private String CPF;
+    
+    public Usuario() {
+    }
+
+    public Usuario(String Senha, String Nome, String CPF) {
+        this.Senha = Senha;
+        this.Nome = Nome;
+        this.CPF = CPF;
+    }
+
+    public String getSenha() {
+        return Senha;
+    }
+
+    public void setSenha(String Matricula) {
+        this.Senha = Matricula;
+    }
+
+    public String getNome() {
+        return Nome;
+    }
+
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    public String getCPF() {
+        return CPF;
+    }
+
+    public void setCPF(String CPF) {
+        this.CPF = CPF;
+    }
+  
+
+   
+}
